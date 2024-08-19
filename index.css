@@ -1,0 +1,16 @@
+.card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 3rem;
+    padding-bottom: 4rem;
+    width: 25rem;
+    height: 30rem;
+    display: inline-grid;
+    margin: 4rem;
+  }
+  
+  .fragrance-avatar {
+    justify-self: center;
+    height: 15rem;
+    width: auto;
+  }
