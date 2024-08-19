@@ -11,6 +11,9 @@ button {
     text-align: center;
     background-color: aquamarine;
     font-size: 2rem;
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+    border: gray solid 1px;
 }
 
 #fragrance-form {
@@ -19,6 +22,7 @@ button {
     font-size: 1.6rem;
     padding-top: .03rem;
     padding-bottom: .7rem;
+    border: gray solid 1px;
 }
 
 #submit-form-container {
@@ -30,6 +34,7 @@ button {
     margin-left: 30rem;
     padding-top: .5rem;
     padding-bottom: .7rem;
+    border: gray solid 1px;
 }
 
 #add-to-collection-btn {
