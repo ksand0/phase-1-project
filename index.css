@@ -11,7 +11,9 @@
 }
 
 #submit-form-container {
+    text-align: center;
     background-color: aquamarine;
+    font-size: 1.6rem;
 }
 
 .card {
