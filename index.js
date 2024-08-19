@@ -19,7 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fragranceSubmitForm = document.querySelector(".fragrance-submit-form")
     fragranceSubmitForm.addEventListener('submit', handleFormSubmit)
+
+
+
+
 })
+
+
+
 
 function fetchFragrances(){
     fetch('http://localhost:3000/fragrances')
@@ -68,6 +75,12 @@ function renderFragrance(fragrance){
 
     const fragranceCard = document.createElement("div");
     fragranceCard.className = "card"
+    fragranceCard.addEventListener("mouseover", () => {
+        fragranceCard.classList.add("mouseover")
+    })
+    fragranceCard.addEventListener("mouseout", () => {
+        fragranceCard.classList.remove("mouseover")
+    })
 
     const fragranceImg = document.createElement('img')
     fragranceImg.className = "fragranceImage"

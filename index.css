@@ -9,12 +9,16 @@
     margin: 4rem;
   }
   
+  .card.mouseover {
+    height: 35rem;
+    width: 30rem;
+  }
+
   .fragrance-avatar {
     justify-self: center;
     height: 15rem;
     width: auto;
   }
-
 
   .fragranceImage {
 
