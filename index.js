@@ -67,23 +67,27 @@ function renderFragrance(fragrance){
     const fragranceDisplay = document.getElementById('fragrance-display')
 
     const fragranceCard = document.createElement("div");
-
+    fragranceCard.className = "card"
 
     const fragranceImg = document.createElement('img')
+    fragranceImg.className = "fragranceImage"
     fragranceImg.src = fragrance.image;
+    fragranceImg.className = "fragrance-avatar";
 
     const fragranceName = document.createElement('h1')
+    fragranceName.className = "fragranceName"
     fragranceName.innerText = fragrance.name;
 
     const fragranceBrand = document.createElement('h2')
-
+    fragranceBrand.className = "fragranceBrand"
     fragranceBrand.innerText = fragrance.brand;
 
     const fragranceNotes = document.createElement('p')
-
+    fragranceNotes.className = "fragranceNotes"
     fragranceNotes.innerText = fragrance.notes;
 
     const deleteButton = document.createElement('button')
+    deleteButton.className = "deleteButton"
     deleteButton.innerText= 'remove';
     deleteButton.id = fragrance.id;
     deleteButton.addEventListener('click', handleDelete);
