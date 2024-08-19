@@ -62,6 +62,36 @@ function handleFormSubmit(event){
     })
 }
 
+
+function renderFragrance(fragrance){
+    const fragranceDisplay = document.getElementById('fragrance-display')
+
+    const fragranceCard = document.createElement("div");
+
+
+    const fragranceImg = document.createElement('img')
+    fragranceImg.src = fragrance.image;
+
+    const fragranceName = document.createElement('h1')
+    fragranceName.innerText = fragrance.name;
+
+    const fragranceBrand = document.createElement('h2')
+
+    fragranceBrand.innerText = fragrance.brand;
+
+    const fragranceNotes = document.createElement('p')
+
+    fragranceNotes.innerText = fragrance.notes;
+
+    const deleteButton = document.createElement('button')
+    deleteButton.innerText= 'remove';
+    deleteButton.id = fragrance.id;
+    deleteButton.addEventListener('click', handleDelete);
+
+    fragranceCard.append(fragranceImg, fragranceName, fragranceBrand, fragranceNotes, deleteButton)
+    fragranceDisplay.appendChild(fragranceCard)
+}
+
 function handleDelete(event){
 
 }
