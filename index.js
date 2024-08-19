@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const addBtn = document.getElementById("add-to-collection-btn")
     const submitFormContainer = document.getElementById("submit-form-container")
 
+    submitFormContainer.style.display = "none";
+
     addBtn.addEventListener('click', () => {
         addFragrance = !addFragrance;
         if (addFragrance) {
