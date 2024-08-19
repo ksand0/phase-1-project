@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const addBtn = document.getElementById("add-to-collection-btn")
     const submitFormContainer = document.getElementById("submit-form-container")
+    const fragranceSubmitForm = document.querySelector(".fragrance-submit-form")
 
     submitFormContainer.style.display = "none";
 
@@ -18,8 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     fetchFragrances();
-
-    const fragranceSubmitForm = document.querySelector(".fragrance-submit-form")
     fragranceSubmitForm.addEventListener('submit', handleFormSubmit)
 })
 
