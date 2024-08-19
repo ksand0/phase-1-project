@@ -1,3 +1,12 @@
+body{
+    background-color: floralwhite;
+}
+
+button {
+    background-color: mistyrose;
+}
+
+
 #header-title {
     text-align: center;
     background-color: aquamarine;
@@ -8,6 +17,7 @@
     text-align: center;
     background-color: aqua;
     font-size: 1.6rem;
+    padding-top: .03rem;
     padding-bottom: .7rem;
 }
 
@@ -18,9 +28,16 @@
     margin-top: 2.2rem;
     margin-right: 30rem;
     margin-left: 30rem;
+    padding-top: .5rem;
+    padding-bottom: .7rem;
+}
+
+#add-to-collection-btn {
+    margin-bottom: .3rem;
 }
 
 .card {
+    background-color: snow;
     text-align: center;
     border: grey solid 1px;
     padding: 3rem;
@@ -42,15 +59,9 @@
     width: auto;
   }
 
-  .fragranceImage {
-
-  }
 
   .fragranceName {
     padding-top: 2.7rem;
-  }
-
-  .fragranceBrand {
   }
 
   .fragranceNotes {
