@@ -13,12 +13,12 @@
   
   <div id="fragrance-form">
     <h2>Add Fragrances to your Collection</h2>
-    <button>Add to Collection</button>
+    <button id="add-to-collection-btn">Add to Collection</button>
   </div>
   
-  <div id="submit-form">
+  <div id="submit-form-container">
 
-    <form>
+    <form class="fragrance-submit-form">
       <input
       type="text"
       name="image"
@@ -26,7 +26,7 @@
       placeholder="Fragrance Image URL"
       class="input-text"
       />
-
+      <br>
       <input
       type="text"
       name="name"
@@ -34,15 +34,15 @@
       placeholder="Fragrance Name"
       class="input-text"
       />
-
+      <br>
       <input
       type="text"
-      name="description"
+      name="notes"
       value=""
-      placeholder="Description of Fragrance"
+      placeholder="Fragrance Notes"
       class="input-text"
       />
-
+      <br>
       <input
       type="submit"
       name="submit"
