@@ -5,7 +5,9 @@
 }
 
 #fragrance-form {
+    text-align: center;
     background-color: aqua;
+    font-size: 1.6rem;
 }
 
 #submit-form-container {
