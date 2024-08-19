@@ -8,12 +8,16 @@
     text-align: center;
     background-color: aqua;
     font-size: 1.6rem;
+    padding-bottom: .7rem;
 }
 
 #submit-form-container {
     text-align: center;
     background-color: aquamarine;
     font-size: 1.6rem;
+    margin-top: 2.2rem;
+    margin-right: 30rem;
+    margin-left: 30rem;
 }
 
 .card {
