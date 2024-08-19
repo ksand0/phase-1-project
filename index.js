@@ -97,5 +97,17 @@ function renderFragrance(fragrance){
 }
 
 function handleDelete(event){
+    const button = event.target;
+    const fragranceId = button.id;
 
+    fetch(`http://localhost:3000/fragrances/${fragranceId}`, {
+        method: "DELETE",
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        }
+    })
+    .then(() => {
+        button.parentElement.remove()
+    });
 }
