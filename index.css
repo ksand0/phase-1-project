@@ -36,6 +36,11 @@ button {
     margin-bottom: .3rem;
 }
 
+.fragrance-submit-form input {
+    line-height: 3em;
+    width:20rem;
+  }
+
 .card {
     background-color: snow;
     text-align: center;
@@ -67,3 +72,4 @@ button {
   .fragranceNotes {
     padding-bottom: 1.5rem;
   }
+
