@@ -22,7 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function fetchFragrances(){
-    
+    fetch('http://localhost:3000/fragrances')
+    .then(res => res.json)
+    .then(fragrances => {
+        fragrances.forEach(fragrance => renderFragrances(fragrance))
+    })
+}
+
+function renderFragrances(){
+
 }
 
 function handleFormSubmit(){
