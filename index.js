@@ -19,14 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fragranceSubmitForm = document.querySelector(".fragrance-submit-form")
     fragranceSubmitForm.addEventListener('submit', handleFormSubmit)
-
-
-
-
 })
-
-
-
 
 function fetchFragrances(){
     fetch('http://localhost:3000/fragrances')
@@ -35,7 +28,6 @@ function fetchFragrances(){
         fragrances.forEach(fragrance => renderFragrance(fragrance))
     })
 }
-
 
 function handleFormSubmit(event){
     event.preventDefault()
@@ -68,7 +60,6 @@ function handleFormSubmit(event){
         addFragrance = false;
     })
 }
-
 
 function renderFragrance(fragrance){
     const fragranceDisplay = document.getElementById('fragrance-display')
