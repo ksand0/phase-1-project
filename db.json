@@ -1,0 +1,43 @@
+{
+    "Fragrances": [
+    {
+      "id": "1",
+      "image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwe465d862/Y0785220/Y0785220_F078522009_E01_ZHC.jpg?sw=3000&sh=2000",
+      "name": "Sauvage",
+      "brand": "Dior",
+      "notes": "Bergamot, Vanilla, Woody, Amber"
+    },
+
+    {
+        "id": "2",
+        "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwce7be75d/original/90_R512032-R090MLS_RNUL_20_BrightCrystalParfum90ml-Bright~Crystal-Versace-online-store_0_1.jpg?sw=1200&q=85&strip=true",
+        "name": "Bright Crystal",
+        "brand": "Versace",
+        "notes": "Yuzu, Pomegrante, Peony, Magolia"
+    },
+
+    {
+        "id": "3",
+        "image": "https://www.prada-beauty.com/dw/image/v2/AAFM_PRD/on/demandware.static/-/Sites-prada-master-catalog/default/dw9ac56643/fragrance/women/MPL01610/Prada-Fragrance-Paradoxe-3614273760164-90ml-Packshot-Front-NoShadow.jpg?sw=930&sh=930&sm=cut&sfrm=jpg&q=70",
+        "name": "Paradoxe",
+        "brand": "Prada",
+        "notes": "Neroli, Jasmine, White Musk"
+    },
+
+    {
+        "id": "4",
+        "image": "https://www.lancome-usa.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lancome-us-master-catalog/default/dw578d592a/3605533286555_LA_VIE_EST_BELLE_L_EAU_DE_PARFUM_100ml.jpg?sw=930&sh=930&sm=cut&sfrm=jpg&q=70",
+        "name": "La Vie Est Belle",
+        "brand": "Lancome",
+        "notes": "Iris, Vanilla, Patchouli"
+    },
+
+    {
+        "id": "5",
+        "image": "https://www.mugler.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-mugler-master-catalog/default/dw43170341/images/pdp/M010101003/1.%20ANGEL%20EDP%20100ML.jpg?sw=1130&sh=930&sm=cut&sfrm=png&q=70",
+        "name": "Angel",
+        "brand": "Thierry Mugler",
+        "notes": "Bergamot, Praline, Patchouli"
+    }
+]
+}
